@@ -20,7 +20,7 @@ body {
     transform: translate(-50%, -50%);
     background: hsl(216, 50%, 16%);
     padding: 20px;
-    box-shadow: 0px 0px 20px 20px ;
+    box-shadow: 0px 0px 20px 20px;
 }
 
 .background img {
@@ -31,12 +31,12 @@ body {
 .title {
     font-weight: 600;
     color: hsl(0, 0%, 100%);
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .text {
     font-weight: 300;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .eth {
@@ -77,17 +77,54 @@ p {
     font-size: 18px;
     color: hsl(215, 51%, 70%);
 }
+
 .eth img {
     margin-right: 10px;
     width: 13px;
 }
 
-.days img{
+.days img {
     margin-right: 8px;
     width: 25px;
 }
+
 .line {
     border-color: hsl(215, 32%, 27%);
     margin: 20px 0px 0px 0px;
 }
-    
+
+.span {
+    color: white;
+}
+
+.span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.icon {
+    position: absolute;
+    background-color: hsla(215, 89%, 75%, 0.493);
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.background {
+    position: relative;
+}
+
+.icon img {
+    width: 50px;
+}
+
+.background:hover .icon {
+    display: flex;
+}
